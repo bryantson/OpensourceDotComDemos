@@ -49,7 +49,7 @@ public class TestOpensource {
 
         assertEquals(server.getName(),"Jetty");
         server.startServer();
-        server.startServer();
+        server.stopServer();
     }
 
 
@@ -62,7 +62,7 @@ public class TestOpensource {
 
         assertEquals(server.getName(),"Tomcat");
         server.startServer();
-        server.startServer();
+        server.stopServer();
     }
 
     @Test
@@ -74,7 +74,7 @@ public class TestOpensource {
 
         assertEquals(server.getName(),"WildFly");
         server.startServer();
-        server.startServer();
+        server.stopServer();
     }
 
     @Test
